@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FirstFragment"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:hint="Name"
+        android:padding="16dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:hint="Lastname"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnNavigateToSecondFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/pink"
+        android:text="Перейти"
+        android:textAllCaps="false" />
+
+</LinearLayout>
